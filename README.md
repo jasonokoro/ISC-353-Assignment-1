@@ -82,35 +82,6 @@ Comparison of all feature coefficients across selected seasons reveals the drama
 - Traditional metrics like **Offensive Rebounds** and **Assists** maintain relatively stable importance
 - **Shooting Percentages** show consistent but moderate predictive power across decades
 
-## Basketball Context
-
-### The 3-Point Revolution
-
-Our findings quantitatively confirm the well-documented "3-point revolution" in modern basketball:
-
-1. **1979-1990s**: The 3-point line is introduced but remains underutilized. Players and coaches view it as a specialist weapon rather than a core offensive strategy.
-
-2. **2000s**: Gradual adoption increases as analytics demonstrate the efficiency advantage of 3-point shooting (3 points vs. 2 points for similar shot difficulty).
-
-3. **2010s-Present**: The "Steph Curry Era" fully embraces 3-point shooting as a primary offensive weapon. Teams like the Golden State Warriors revolutionize basketball strategy, making 3-point volume central to offensive schemes.
-
-### Statistical Interpretation
-
-A standardized coefficient of 0.6030 (2017) means that a one-standard-deviation increase in 3PA per game corresponds to approximately 0.60 additional points per game in predicted scoring, holding all other factors constant. This is a substantial effect size, comparable to traditional high-volume scoring methods.
-
-## Implications
-
-### For Basketball Analytics
-
-- **Team Building**: Modern NBA teams must prioritize 3-point shooting ability when evaluating players
-- **Strategy**: Offensive systems should maximize quality 3-point attempts
-- **Player Development**: Youth development programs should emphasize 3-point shooting skills
-
-### For Statistical Modeling
-
-- **Era Adjustment**: Historical player comparisons must account for the changing role of 3-point shooting
-- **Predictive Models**: Contemporary scoring models should weight 3PA more heavily than historical data would suggest
-
 ## Technical Details
 
 ### Model Specifications
@@ -130,34 +101,6 @@ pip install pandas numpy matplotlib scikit-learn scipy
 python assignment1.py
 ```
 
-## Future Work
-
-- Incorporate player position as a categorical variable
-- Analyze defensive statistics' role in the 3-point era
-- Compare team-level vs. individual-level trends
-- Extend analysis to playoff performance metrics
-
 ## Conclusion
 
 This analysis provides quantitative evidence for basketball's evolution toward 3-point-centric offense. The 2,393% increase in 3PA's predictive importance from 1984 to 2017, with a highly significant temporal trend (p < 0.0001), demonstrates that the 3-point revolution is not merely a stylistic preference but a fundamental transformation in how points are scored in modern basketball.
-
-## Repository Structure
-
-```
-.
-├── assignment1.py          # Main analysis script
-├── Player-Per-Game.csv     # Dataset (not included)
-├── README.md              # This file
-└── images/
-    ├── image1.png         # 3PA importance trend
-    ├── image2.png         # Model performance
-    └── image3.png         # Feature importance comparison
-```
-
-## Author
-
-Data Science Project - NBA Statistical Analysis
-
-## License
-
-MIT License - Feel free to use and modify for educational purposes
