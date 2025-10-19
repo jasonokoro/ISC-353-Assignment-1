@@ -59,7 +59,6 @@ The importance of 3-point attempts in predicting scoring has increased dramatica
   - In the early years following the 3-point line's introduction (1979), 3PA had minimal or even negative predictive value
 - **Maximum Coefficient**: 0.6030 in **2017**
   - Represents the peak of the "3-point revolution" era
-- **Range**: 0.6292 (a 2,393% increase from minimum to maximum)
 
 ### 3. Model Consistency
 
